@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Here!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<form class="box" action="Text Document.html" method="post">
+  <h1>Profile</h1>
+  <input type="text" name="name" placeholder="print name">
+  <input type="submit" name="submit" value="Login">
+</form>
+
+<script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", (e) => {
+    // Получите имя пользователя из поля ввода
+    const name = form.querySelector("input[name='name']").value;
+
+    // Откройте новую страницу с профилем
+    window.location.href = Text Document — копия.html;
+
+    e.preventDefault();
+  });
+</script>
+
+
+  </body>
+</html>
